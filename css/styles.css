@@ -1,0 +1,59 @@
+.oru {
+  text-decoration: overline;
+}
+.robot {
+  margin-left: 300px;
+  background: navy;
+  color: white;
+}
+.navbar {
+  background: navy;
+  color: white;
+}
+.fs {
+  font-size: smaller;
+}
+.navbar-brand {
+  margin-left: auto;
+}
+
+div.pyramid {
+  height: 500px;
+  color: white;
+  position: relative;
+}
+.pyramid {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.text {
+  color: white;
+  font-size: xx-large;
+  position: absolute;
+  bottom: 0;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.search-btn {
+  margin-left: 1200px;
+}
+.headings {
+  display: flex;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 29px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 21px;
+}
+h5 {
+  font-size: 19px;
+}
