@@ -1,20 +1,18 @@
 .oru {
   text-decoration: overline;
 }
+.oral {
+  text-align: center;
+}
 .robot {
-  margin-left: 300px;
   background: navy;
   color: white;
 }
-.navbar {
-  background: navy;
-  color: white;
-}
+
 .fs {
   font-size: smaller;
-}
-.navbar-brand {
-  margin-left: auto;
+  background: navy;
+  color: white;
 }
 
 div.pyramid {
@@ -37,7 +35,7 @@ div.pyramid {
   transform: translate(-50%);
 }
 .search-btn {
-  margin-left: 1200px;
+  margin-left: 900px;
 }
 .headings {
   display: flex;
