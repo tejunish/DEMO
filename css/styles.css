@@ -28,15 +28,17 @@ div.pyramid {
 }
 .text {
   color: white;
-  font-size: xx-large;
+  font-size: 3rem;
   position: absolute;
   bottom: 0;
   margin-left: 50%;
   transform: translate(-50%);
 }
+
 .search-btn {
   margin-left: 900px;
 }
+
 .headings {
   display: flex;
 }
