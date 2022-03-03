@@ -57,3 +57,133 @@ h4 {
 h5 {
   font-size: 19px;
 }
+.quotes {
+  position: relative;
+  padding: 0 40px;
+  color: skyblue;
+}
+p1::before {
+  content: '\201C';
+  position: absolute;
+  font-weight: bold;
+  font-size: 4em;
+  color: pink;
+  top: -30px;
+  left: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p1::after {
+  content: '\201D';
+  position: absolute;
+  font-weight: bold;
+  font-size: 4em;
+  color: pink;
+  bottom: -60px;
+  right: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-btn {
+  width: 625px;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 75px 50px 125px;
+  grid-template-areas:
+    'a a a b'
+    'c c d b'
+    'e x d b'
+    'f f f f';
+}
+.btn {
+  padding: 2rem;
+  background: navy;
+  font-weight: bold;
+  text-align: center;
+
+  color: white;
+}
+.btn-1 {
+  grid-area: a;
+}
+.btn-2 {
+  grid-area: b;
+}
+.btn-3 {
+  grid-area: c;
+}
+.btn-4 {
+  grid-area: d;
+}
+.btn-5 {
+  grid-area: e;
+}
+.btn-6 {
+  grid-area: f;
+}
+.tabs {
+  background: burlywood;
+}
+.boxy {
+  background: whitesmoke;
+}
+.button {
+  color: burlywood;
+  margin-left: 500px;
+}
+.heading {
+  color: burlywood;
+}
+.colr {
+  border: 2px solid burlywood;
+}
+.people {
+  float: right;
+  height: 180px;
+}
+
+/* .container-box {
+  width: 500px;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 75px; */
+
+.box {
+  padding: 2rem;
+  background: navy;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.box-1 {
+  background: navy;
+  width: 280px;
+  height: 180px;
+  margin-right: 740px;
+}
+.box-2 {
+  background: white;
+  border: 2px solid black;
+  color: blue;
+  width: 280px;
+  height: 180px;
+}
+.info {
+  border: 2px solid skyblue;
+}
+
+.box-3 {
+  background: burlywood;
+  color: white;
+  width: 280px;
+  height: 180px;
+}
+
+.box-4 {
+  background: gray;
+  color: blue;
+  width: 280px;
+  height: 180px;
+}
