@@ -36,7 +36,7 @@ div.pyramid {
 }
 
 .search-btn {
-  margin-left: 900px;
+  float: right;
 }
 
 .headings {
@@ -58,6 +58,11 @@ h5 {
   font-size: 19px;
 }
 .quotes {
+  display: inline-block;
+  width: 1150px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
   position: relative;
   padding: 0 40px;
   color: skyblue;
@@ -143,14 +148,12 @@ p1::after {
 }
 
 /* .container-box {
-  width: 500px;
   display: grid;
-  gap: 5px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 75px; */
+  grid-template-rows: 25px 25px;
+} */
 
 .box {
-  padding: 2rem;
   background: navy;
   font-weight: bold;
   text-align: center;
@@ -159,16 +162,16 @@ p1::after {
 
 .box-1 {
   background: navy;
-  width: 280px;
-  height: 180px;
-  margin-right: 740px;
+  padding: 2px;
+  width: 300px;
+  height: 200px;
 }
 .box-2 {
   background: white;
   border: 2px solid black;
   color: blue;
-  width: 280px;
-  height: 180px;
+  width: 300px;
+  height: 200px;
 }
 .info {
   border: 2px solid skyblue;
@@ -177,13 +180,15 @@ p1::after {
 .box-3 {
   background: burlywood;
   color: white;
-  width: 280px;
-  height: 180px;
+  padding: 2px;
+  width: 300px;
+  height: 200px;
 }
 
 .box-4 {
   background: gray;
   color: blue;
-  width: 280px;
-  height: 180px;
+  padding: 2px;
+  width: 300px;
+  height: 200px;
 }
